@@ -194,7 +194,7 @@ h2::after {
 }
 
 .discord::before {
-   content: url(../img/svg/discord.svg);
+   content: url(../img/svg/Discord.svg);
    margin-right: 5px;
    display: inline-block;
    vertical-align: middle;
