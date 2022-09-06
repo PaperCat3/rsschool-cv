@@ -1,0 +1,513 @@
+body {
+}
+
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.my {
+   padding-top: 90px;
+}
+
+.my__inner {
+   display: flex;
+   background: url(../img/look.com.ua-306122.jpg) no-repeat 100%/auto;
+}
+
+.photo img {
+   width: 340px;
+   margin: 50px 50px 50px 50px;
+   /* margin-left: 100px; */
+}
+
+.myname {
+   width: 840px;
+   text-align: center;
+   padding-right: 50px;
+   padding-top: 100px;
+}
+
+.myname h1 {
+   font-size: 72px;
+   color: aquamarine;
+   max-width: 600px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+   background-color: #3a3131c7;
+   
+}
+
+.myname p {
+   font-size: 32px;
+   color: rgb(135, 153, 147);
+   margin: 0 auto;
+   max-width: 500px;
+   background-color: #3a3131c7;
+}
+
+.svg-icon {
+   margin-top: 80px;
+}
+
+.svg-icon img {
+   width: 120px;
+   padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+   .my__inner {
+      
+      text-align: center;
+      
+   }
+   .photo img {
+      width: 200px;
+      margin-bottom: 10px;
+      border-radius: 100px;
+   } 
+   .svg-icon {
+      margin-top: 40px;
+      margin-bottom: 50px;
+   }  
+   .svg-icon img{
+      width: 100px;
+   }
+   .myname{
+      padding-top: 75px;
+   }
+   .myname h1{
+      font-size: 62px;
+      width: 430px;
+      margin-bottom: 10px;
+   }
+   .myname p {
+      width: 430px;
+   }
+}
+
+@media (max-width: 767px){
+   .myname h1{
+      font-size: 62px;
+      width: 330px;
+      margin-bottom: 10px;
+   }
+   .myname p {
+      width: 330px;
+   }
+}
+
+@media (max-width: 680px){
+   .my__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .myname h1{
+      font-size: 42px;
+      width: 300px;
+   }
+   .myname p {
+      width: 300px;
+      font-size: 32px;
+   }
+
+   .svg-icon {
+      display: none;
+   }
+   .photo img {
+      width: 240px;
+      margin: 10px;
+      /* margin-left: 100px; */
+   }
+   .myname {
+      width: 300px;
+      text-align: center;
+      padding-right: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+}
+
+.contacts__inner {
+   background-color: #07060615;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+h2 {
+   color: rgb(3, 5, 4);
+   font-size: 52px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+h2::after {
+   display: block;
+   content: '';
+   border-bottom: 3px solid #0706064d;
+   padding-top: 10px;
+   width: 230px;
+   margin: 0 auto;
+}
+
+.contacts__inner ul {
+   column-count: 2;
+   text-align: center;
+   margin: 0 auto;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+@media (max-width: 680px){
+   .contacts__inner ul {
+      column-count: 1;
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+}
+
+.contacts__inner ul li {
+   font-size: 22px;
+   padding-bottom: 30px;
+}
+
+.loc::before {
+   content: url(../img/svg/loc.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.tel::before {
+   content: url(../img/svg/telephone.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.mail::before {
+   content: url(../img/svg/mail.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.discord::before {
+   content: url(../img/svg/Discord.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.git::before {
+   content: url(../img/svg/github.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.codewars::before {
+   content: url(../img/svg/codewars.svg);
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.aboutme__text {
+   padding-top: 50px;
+   padding-bottom: 80px;
+   background: url(../img/fon-aboutme.jpg) no-repeat 100%/auto;
+}
+
+.aboutme__text h2{
+   color: rgb(250, 226, 8);
+   mix-blend-mode: color-dodge;
+   font-size: 62px;
+}
+
+.aboutme__text p {
+   margin: 0 auto;
+   margin: 0px 100px;
+   font-size: 24px;
+   color: rgb(250, 226, 8);
+   text-align: justify;
+}
+
+@media (max-width: 500px){
+   .aboutme__text p{
+      margin: 0 35px;
+   }
+}
+.skills__inner {
+   background-color: #07060615;
+}
+
+.skills h2::after {
+   width: 110px;
+}
+
+.skills__inner {
+   padding-top: 50px;
+   padding-bottom: 80px;
+}
+
+.skills__inner ul {
+   text-align: center;
+}
+
+.skills__inner ul li{
+   display: inline-block;
+   text-align: center;
+   margin-right: 40px;
+   font-size: 25px;
+   font-weight: 900;
+}
+
+.skills__inner ul li img {
+   width: 140px;
+   padding-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+   .skills__inner ul li:nth-child(5) {
+      margin-right: 0px;
+   }
+   .skills__inner ul li img {
+     width: 90px;
+   }
+}
+
+@media (max-width: 680px){
+   .skills__inner ul li {
+      padding-bottom: 40px;
+   }
+   .skills__inner {
+      padding-bottom: 0px;
+  }
+}
+
+@media (max-width:655px) {
+   .skills__inner ul li img {
+      width: 60px;
+    }
+}
+
+@media (max-width: 570px){
+   .skills__inner ul li:nth-child(1){
+      margin-left: 70px;
+   }
+}
+
+@media (max-width: 450px){
+   .skills__inner ul li:nth-child(1){
+      margin-left: 0px;
+   }
+   .skills__inner ul {
+      display: flex;
+      flex-direction: column;
+   }
+   .skills__inner ul li{
+      margin-right: 0px;
+   }
+   .skills__inner ul li img {
+      width: 100px;
+    }
+}
+
+
+.education__inner {
+   background: url(../img/harward-university2.jpg) no-repeat 100%/cover;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+   height: 400px;
+}
+
+.education__inner p{
+   padding-bottom: 30px;
+}
+
+.languages {
+   flex-basis: 50%;
+   background-color: #3a3131c7;
+   padding-top: 20px;
+   padding-bottom: 53px;
+}
+
+.languages p {
+   color: rgb(143, 206, 185);
+   font-size: 23px;
+   text-align: center;
+}
+
+.education__elements {
+   flex-basis: 50%;
+   background-color: #3a3131c7;
+}
+
+.education__elements p{
+   color: rgb(143, 206, 185);
+   font-size: 23px;
+   text-align: center;
+}
+
+.education__inner h2{
+   color: aquamarine;
+   font-size: 52px;
+   text-align: center;
+}
+
+.education__elements h2 {
+   padding-top: 20px;
+}
+
+.education__inner h2::after {
+  border-color: aquamarine;
+}
+
+@media (max-width: 650px){
+   .education__inner {
+      flex-direction: column;
+      align-items: center;
+      height: 700px;
+   }
+   .education__inner p{
+      padding-bottom: 10px;
+   }
+   .education__elements {
+      padding-bottom: 10px;
+      flex-basis: 0%;
+   }
+   .languages {
+      flex-basis: 0%;
+      padding-bottom: 5px;
+      width: 322px;
+   }
+   .education__inner {
+      height: 410px;
+   }
+}
+
+@media (max-width: 324px){
+   .education__inner {
+      height: 433px;
+   }
+}
+
+.code .container{
+   padding-bottom: 60px;
+   background-color: #07060615;
+}
+
+.code h2 {
+   padding-top: 50px;
+}
+
+.text-blue {
+   color: rgb(52, 84, 226);
+}
+
+.text-ellow {
+   color:rgb(161, 147, 19);
+}
+
+.text-green {
+   color: green;
+}
+
+.text-purple {
+   color: purple;
+}
+
+pre {
+   max-width: 338px;
+   margin: 0 auto;
+}
+
+@media (max-width: 370px){
+   .code .js{
+      font-size: 10px;
+   }
+   pre {
+      max-width: 220px;
+      margin: 0 auto;
+   }
+}
+
+.projects h2 {
+   margin-top: 50px;
+}
+
+.projects .screan {
+   /* border: 3px solid #c2a3a3; */
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+#project1{
+   width: 300px;
+   
+}
+
+#project1:hover{
+   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.555);
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+footer .container {
+   max-width: 1280px;
+   height: 80px;
+   margin: 0 auto;
+   background-color: #181818f8;
+}
+
+.footer__inner {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   line-height: 80px;
+}
+
+footer p{
+   font-size: 32px;
+   color: white;
+   padding-left: 40px;
+}
+
+#git-footer {
+   width: 60px;
+   margin-left: 40px;
+   padding-top: 15px;
+}
+#rs-school {
+   width: 100px;
+   margin-right: 40px;
+   padding-top: 23px;
+}
+
+@media (max-width: 750px){
+.container h2{
+   font-size: 32px;
+}
+}
+
+@media (max-width: 450px){
+   footer p{
+      font-size: 24px;
+      color: white;
+      padding-left: 15px;
+   }
+   
+   #git-footer {
+      width: 50px;
+      margin-left: 30px;
+      padding-top: 15px;
+   }
+   #rs-school {
+      width: 80px;
+      margin-right: 10px;
+      padding-top: 23px;
+   }
+}

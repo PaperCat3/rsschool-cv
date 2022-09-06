@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV</title>
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/header.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+</head>
+<body>
+   <header class="header">
+      <div class="header__container">
+         <div class="header__inner">
+
+            <div class="logo">
+               <img src="./img/logo.png" alt="logo">
+            </div>
+            <nav class="nav open-menu">
+               <ul class="ul-menu list">
+                  <li><a  href="#aboutme">About me</a></li>
+                  <li><a  href="#contacts">Contacts</a></li>
+                  <li><a  href="#skills">Skills</a></li>
+                  <li><a  href="#languages">Languages</a></li>
+                  <li><a  href="#education">Education</a></li>
+                  <li><a  href="#code">Code</a></li>
+                  <li><a  href="#projects">My projects</a></li>
+               </ul>
+            </nav>
+            <div class="menu-list">
+               <div class="line1 line-open1"></div>
+               <div class="line2 line-open2"></div>
+               <div class="line3 line-open3"></div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <section class="my">
+         <div class="container">
+            <div class="my__inner">
+               <figure class="photo">
+                  <img src="./img/myphoto.JPEG" alt="my photo">
+               </figure>
+               <div class="myname">
+                  <h1>Stanislav Volkov</h1>
+                  <p>Junior frontend developer</p>
+                  <div class="svg-icon">
+                     <img src="./img/svg/html.svg" alt="html">
+                     <img src="./img/svg/css.svg" alt="css">
+                     <img src="./img/svg/js.svg" alt="js">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contacts" class="contacts">
+         <div class="container">
+            <div class="contacts__inner">
+               <h2>My contacts</h2>
+               <ul>
+                  <li class="loc"><strong>Location:</strong><br> Novosibirsk, Russia</li>
+                  <li class="tel"><strong>Tel:</strong><br> +8 923 23* ** **</li>
+                  <li class="mail"><strong>E-mail:</strong><br> PaperCat03@gmail.com</li>
+                  <li class="discord"><strong>Discord:</strong><br> PaperCat</li>
+                  <li class="git"><strong>Githab:</strong><br> <a
+                        href="https://github.com/PaperCat3" target="_blank">github.com/PaperCat3</a></li>
+                  <li class="codewars"><strong>Codewars:</strong><br> <a
+                        href="https://www.codewars.com/users/PaperCat3" target="_blank">www.codewars.com/PaperCat3</a></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section id="aboutme" class="Aboutme">
+         <div class="container">
+            <div class="aboutme__text">
+               <h2>About me</h2>
+               <p>Hi! I currently work in the veterinary field. I have no programming experience, but I want to work and
+                  develop in this direction. I already have basic HTML, CSS, JS skills, and I continue to study. I hope
+                  to successfully study everything and find a job in the frontend.</p>
+            </div>
+      </section>
+      <section id="skills" class="skills">
+         <div class="container">
+            <div class="skills__inner">
+               <h2>Skills</h2>
+               <ul>
+                  <li><img src="./img/svg/html.svg" alt="html"><br> HTML</li>
+                  <li><img src="./img/svg/css.svg" alt="css"><br> CSS</li>
+                  <li><img src="./img/svg/js.svg" alt="js"><br> JavaScript</li>
+                  <li><img src="./img/svg/git.svg" alt="git"><br> GIT</li>
+                  <li><img src="./img/svg/figma.svg" alt="figma"><br> Figma</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section class="education">
+         <div class="container">
+            <div class="education__inner">
+               <div id="languages" class="languages">
+                  <h2>Languages</h2>
+                  <p>Russian - Native</p>
+                  <p>English - A1</p>
+               </div>
+               <div id="education" class="education__elements">
+                  <h2>Education</h2>
+                  <p>2018 NSAU Veterinarian</p>
+                  <p>2021 Code basics: HTML, CSS, JS</p>
+                  <p>2022 RS School</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="code" class="code">
+         <div class="container">
+            <h2>My code</h2>
+            <pre>
+               <code class="js">
+<span class="text-blue ">function</span> <span class="text-ellow">highAndLow</span>(numbers){
+   <span class="text-blue ">let</span> num = numbers.<span class="text-ellow">split</span>(' ').<span class="text-ellow">map</span>(<span class="text-green">Number</span>);
+   <span class="text-blue ">let</span> min = Math.<span class="text-ellow">min.apply</span>(<span class="text-blue">null</span>, num);
+   <span class="text-blue ">let</span> max = Math.<span class="text-ellow">max.apply</span>(<span class="text-blue">null</span>, num);
+   <span class="text-blue ">let</span> space = " ";
+   <span class="text-purple">return</span> <span class="text-green">String</span>(max) + space + <span class="text-green">String</span>(min);
+}
+               </code>
+            </pre>
+         </div>
+      </section>
+      <section id="projects" class="projects">
+         <div class="container">
+            <h2>My projects</h2>
+            <div class="screan">
+               <a href="https://PaperCat3.github.io/rsschool-cv/cv" target="_blank"><img id="project1" src="./img/cv-project.jpg"
+                     alt="My CV"></a>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <div class="container">
+         <div class="footer__inner">
+            <a href="https://github.com/PaperCat3" target="_blank"><img id="git-footer" src="./img/svg/github-footer.svg" alt="GITHUB"></a>
+            <p>2022</p>
+            <a href="https://rs.school/" target="_blank"><img id="rs-school" src="./img/svg/rs_school.svg" alt="rss"></a>
+         </div>
+      </div>
+   </footer>
+   <script src="./script.js"></script>
+</body>
+</html>
